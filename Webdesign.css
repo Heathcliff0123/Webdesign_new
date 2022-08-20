@@ -11,8 +11,9 @@
   
 }
 #overview:hover{
-    background-color: brown;
-
+    animation-duration: 1s;
+    animation-name: BackgroundChange;
+    animation-iteration-count: infinite;
 }
  .col-10{
     font-size:xx-large;
@@ -73,8 +74,9 @@
     color: aliceblue;
 }
 #coding_languages:hover{
-    background-color: brown;
-
+    animation-duration: 1s;
+    animation-name: BackgroundChange;
+    animation-iteration-count: infinite;
 }
 .navbar{
     align-items: center center;
@@ -89,16 +91,18 @@
     color: aliceblue;
 }
 #workExp:hover{
-    background-color: brown;
-
+    animation-duration: 1s;
+    animation-name: BackgroundChange;
+    animation-iteration-count: infinite;
 }
 #form{
     background-color:darkblue;
     color: aliceblue;
 }
 #form:hover{
-    background-color: brown;
-
+    animation-duration: 1s;
+    animation-name: BackgroundChange;
+    animation-iteration-count: infinite;
 }
 #External_links{
     align-items: center center;
@@ -110,6 +114,13 @@
 
 
 #External_links:hover{
-    background-color: brown;
+    
+    animation-duration: 1s;
+    animation-name: BackgroundChange;
+    animation-iteration-count: infinite;
+}
 
+@keyframes BackgroundChange {
+    from {background-color: rgb(19, 106, 204);}
+    to {background-color: brown;}
 }
